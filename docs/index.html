@@ -12,19 +12,31 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'gsoc idea list',
-      repo: ''
-    }
-  </script>
-  <script>
-    window.$docsify = {
+      name: "mexili",
+      repo: "https://github.com/mexili/gsoc_meta",
       loadSidebar: true,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
-      }
-    }
+      },
+      plugins: [
+        (function () {
+          var jsResources = [
+            "//cdn.bootcss.com/react/15.6.1/react.js",
+            "//cdn.bootcss.com/react/15.6.1/react-dom.js",
+          ]
+            .map(function (url) {
+              return '<script src="' + url + '"><' + "/script>";
+            })
+            .join("\n");
+          return DemoBoxReact.create(jsResources);
+        })(),
+      ],
+    };
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+   <!-- plugins -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
