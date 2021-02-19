@@ -19,7 +19,7 @@ The basic project is built. We plan to add multiple features on the basic templa
 
 **Requirements**: ReactJS (preferred), Firebase, Node.js, Basic server-side knowledge.
 
-*Potential mentor: Madhav*
+*Potential mentor: Madhav*, Ankit
 
 ## Incogly: An anonymous Video platform
 **Project Description**: Incog.ly is a peer to peer video conferencing app which keeps your identity anonymous. With the feel by avatarifying the remote side into a character with the power of emotions and expressions.
@@ -39,7 +39,7 @@ The basic project is built. We plan to add multiple features on the basic templa
 
 **Requirements**: ReactJS , NodeJS, (good to have) Rust(WASM) and TensorflowJS
 
-*Potential mentor: Sanskar*
+*Potential mentor: Sanskar*, Mohsin
 
 
 ## CSSify: A framework to develop custom CSS frameworks
@@ -62,7 +62,7 @@ CSSify provides a solution to all these problems, by offering a rock solid base 
 
 **Requirements**: ReactJS , CSS/SCSS(required),  NodeJS, (good to have) and TensorflowJS
 
-*Potential mentor: Sanskar*
+*Potential mentor: Sanskar*, Mohsin
 
 
 ## Aiden
