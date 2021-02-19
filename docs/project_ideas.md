@@ -1,3 +1,5 @@
+# Project Ideas
+
 ## Skribbl
 **Project Description**: Skribbl is a web-based app that allows free-hand scribbling of virtual t-shirts via freehand drawing on canvas or adding by adding text through a textbox. You can also view the skribbl history that highlights the selected skribbl. You can share your t-shirt on various social media platforms with your friends. This project was made for students graduating in pandemic so that they can have scribble ceremonies online.
 
